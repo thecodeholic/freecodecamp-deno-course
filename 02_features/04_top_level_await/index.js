@@ -5,7 +5,7 @@ const getPromise = () =>
 const result = await getPromise();
 console.log(result);
 
-// YOU STILL NEED your function to be async if you are using await inside the function
+// // YOU STILL NEED your function to be async if you are using await inside the function
 // const callback = () => {
 //   const result = await getPromise();
 //   console.log(result);
