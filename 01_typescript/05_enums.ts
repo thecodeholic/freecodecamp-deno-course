@@ -1,13 +1,3 @@
-enum UserRole {
-  ADMIN = "admin",
-  USER = "user",
-}
+// Create basic Enum
 
-function isAdmin(c: string) {
-  if (c === "admin") {
-    return true;
-  }
-  return false;
-}
-
-isAdmin("admn");
+// Enum with values

@@ -1,44 +1,9 @@
-// Object Types
-// const user = {
-//   name: "Zura",
-//   age: 28,
-// };
-// user.surname = ""; // Error
+// Implicit object types
 
-// let user: {
-//   name: string;
-//   age: number;
-//   [key: string]: any;
-// };
+// Explicit object types
 
-// user = {
-//   name: "Zura",
-//   age: 28,
-//   surname: "",
-// };
+// With Dynamic properties
 
-// function getId(object: { id: number }): number {
-//   return object.id;
-// }
-// let object: { id: number };
+// Object types in function arguments
 
-// const user = { id: 1, name: "Zura", age: 28 };
-// console.log(getId(user)); // 1
-
-// Interfaces
-interface Person {
-  name: string;
-  readonly age: number;
-  [key: string]: any;
-  hello(): string;
-}
-
-let user: Person = {
-  name: "Zura",
-  age: 28,
-  surname: "",
-  hello() {
-    return `Hello from ${this.name}`;
-  },
-};
-user.age = 30; // Error
+// Interfaces, with readonly properties, dynamic keys, methods
