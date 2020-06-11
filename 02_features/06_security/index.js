@@ -1,19 +1,9 @@
-// --allow-read Read current working directory
-// console.log(Deno.cwd());
+// Read current working directory     --allow-read
 
-// --allow-read Read file content and output
-// const content = await Deno.readTextFile("./read.txt");
-// console.log(content);
+// Read file content and output       --allow-read
 
-// --allow-write Write content into file
-// await Deno.writeTextFile("./write.txt", "123");
+// Write content into file            --allow-write
 
-// --allow-env Environmental access
-// Deno.env.set("TEST_VARIABLE", "Value");
-// const value = Deno.env.get("TEST_VARIABLE");
-// console.log(value);
+// Environmental access               --allow-env
 
-// --allow-net Allow network access
-const myTodo = await fetch("https://jsonplaceholder.typicode.com/todos/1")
-  .then((response) => response.json());
-console.log("TODO from jsonplaceholder ", myTodo);
+// Allow network access               --allow-net

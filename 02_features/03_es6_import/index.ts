@@ -1,4 +1,4 @@
-import Person from "./Person.js";
+import Person from "./Person.ts";
 
 const person = new Person();
 person.hello();

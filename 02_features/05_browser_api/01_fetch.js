@@ -1,4 +1,4 @@
 // Using fetch()
-const todo = await fetch("https://jsonplaceholder.typicode.com/todos/1")
+const data = await fetch("URL_TO_FETCH_THE_DATA")
   .then((response) => response.json());
-console.log("TODO from jsonplaceholder ", todo);
+console.log(data);
