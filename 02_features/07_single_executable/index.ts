@@ -1,0 +1,1 @@
+// deno install index.js
